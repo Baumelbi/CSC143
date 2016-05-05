@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98993249-6213-4cb1-9503-0f8a262adcc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LAStacksAndQueues.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/BoundedQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/BoundedStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/DataStructureException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/MyBoundedQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/MyBoundedStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/MyUnboundedQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/MyUnboundedStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/Overfill.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/UnboundedQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/UnboundedStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/data_structures/Underempty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/test/data_structures/BoundedQueueTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/test/data_structures/BoundedStackTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/test/data_structures/CompileStackQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/test/data_structures/UnboundedQueueTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LAStacksAndQueues/csc143/test/data_structures/UnboundedStackTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/BoundedQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/BoundedStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/DataStructureException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/MyBoundedQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/MyBoundedStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/MyUnboundedQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/MyUnboundedStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/Overfill.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/UnboundedQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/UnboundedStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/data_structures/Underempty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/CompileStackQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedQueueTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedStackTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sudoku/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sudoku/.idea/workspace.xml" />
     </list>
     <ignored path="LAStacksAndQueues.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +45,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="40" />
+    <option name="x" value="99" />
+    <option name="y" value="116" />
     <option name="width" value="1004" />
     <option name="height" value="651" />
   </component>
@@ -113,7 +75,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,8 +86,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,15 +550,17 @@
       <option name="number" value="Default" />
       <updated>1462422942125</updated>
       <workItem from="1462422943520" duration="837000" />
-      <workItem from="1462424719540" duration="57000" />
+      <workItem from="1462424719540" duration="299000" />
+      <workItem from="1462425076423" duration="23000" />
+      <workItem from="1462425235785" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="894000" />
+    <option name="totallyTimeSpent" value="1199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="40" width="1004" height="651" extended-state="0" />
+    <frame x="99" y="116" width="1004" height="651" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
