@@ -38,7 +38,13 @@ public class UnboundedQueueTest {
     }
 
     @Test
-    public void testIsNotEmpty() {
+    public void testIsNotEmpty_empty_expectFalse() {
+        Assert.assertFalse(uq.isNotEmpty());
+    }
+
+    @Test
+    public void testIsNotEmpty_addOne_expectTrue() {
+        uq.enqueue(3);
         Assert.assertTrue(uq.isNotEmpty());
     }
 

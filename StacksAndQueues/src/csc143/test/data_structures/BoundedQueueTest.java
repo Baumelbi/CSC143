@@ -44,7 +44,13 @@ public class BoundedQueueTest {
     }
 
     @Test
-    public void testIsNotEmpty() {
+    public void testIsNotEmpty_empty_expectFalse() {
+        Assert.assertFalse(bq.isNotEmpty());
+    }
+
+    @Test
+    public void testIsNotEmpty_addOne_expectTrue() throws Overfill {
+        bq.enqueue(3);
         Assert.assertTrue(bq.isNotEmpty());
     }
 
@@ -77,6 +83,5 @@ public class BoundedQueueTest {
     public void testToString() {
         String actual = bq.toString();
         Assert.assertEquals("testing the string representation", "[ 0 : ]", actual);
-
     }
 }
