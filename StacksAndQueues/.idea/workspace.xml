@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259ba5e-dff8-423a-9a4b-74cbdaf99a9c" name="Default" comment="Finished first set of JUnit tests for bounded and unbounded Queues">
+    <list default="true" id="1259ba5e-dff8-423a-9a4b-74cbdaf99a9c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedQueueTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedQueueTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedStackTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedStackTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/UnboundedQueueTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/UnboundedQueueTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java" afterPath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java" afterPath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedQueueTest.java" afterPath="$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedQueueTest.java" />
     </list>
     <ignored path="StacksAndQueues.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -715,8 +715,15 @@
       <updated>1462476166399</updated>
       <workItem from="1462476169102" duration="146000" />
       <workItem from="1462477043062" duration="286000" />
-      <workItem from="1462551176627" duration="1776000" />
+      <workItem from="1462551176627" duration="1835000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished first set of JUnit tests for bounded and unbounded Queues">
+      <created>1462553256813</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1462553256813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -731,7 +738,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2208000" />
+    <option name="totallyTimeSpent" value="2267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="39" width="1175" height="651" extended-state="0" />
