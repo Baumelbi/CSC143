@@ -3,7 +3,8 @@ package csc143.data_structures;
 /**
  * Created by baumelbi.
  */
-public class MyBoundedStack implements BoundedStack {
+public class BoundedArrayStack implements BoundedStack {
+
 
     private Object[] bsArray;
     private int top;
@@ -14,7 +15,7 @@ public class MyBoundedStack implements BoundedStack {
      *
      * @param n the maximum size of the stack
      */
-    public MyBoundedStack(int n) {
+    public BoundedArrayStack(int n) {
 
         maxSize = n;
         bsArray = new Object[maxSize];
@@ -61,7 +62,7 @@ public class MyBoundedStack implements BoundedStack {
      */
     @Override
     public int size() {
-        return top +1;
+        return top + 1;
     }
 
     /**
@@ -81,7 +82,24 @@ public class MyBoundedStack implements BoundedStack {
      */
     @Override
     public String toString() {
+        String temp;
 
-        return null;
+        if (size() == 0) {
+            temp = String.format("[ %s : ", size());
+        } else {
+            temp = String.format("[ %s : ", size());
+            for (int i = 0; i < size(); i++) {
+                if (i+1 >= size()) {
+                    temp += bsArray[i] + " ";
+                } else {
+                    temp += bsArray[i] + ", ";
+                }
+            }
+        }
+        temp += "]";
+        return temp;
     }
+
 }
+
+

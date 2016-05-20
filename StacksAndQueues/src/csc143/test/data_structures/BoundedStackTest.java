@@ -12,10 +12,10 @@ import org.junit.Test;
  */
 public class BoundedStackTest {
 
-    private MyBoundedStack bs;
+    private BoundedArrayStack bs;
     @Before
     public void setUp() {
-        bs = new MyBoundedStack(6);
+        bs = new BoundedArrayStack(6);
     }
 
     @Test
@@ -90,6 +90,18 @@ public class BoundedStackTest {
         Assert.assertEquals("testing the string representation", "[ 0 : ]", bs.toString());
         bs.push(3);
         Assert.assertEquals("testing the string representation", "[ 1 : 3 ]", bs.toString());
+    }
+
+    @Test
+    public void testToStringPush() throws Overfill {
+        String actual = bs.toString();
+        Assert.assertEquals("testing the string representation", "[ 0 : ]", actual);
+        bs.push(1);
+        actual = bs.toString();
+        Assert.assertEquals("testing the string representation", "[ 1 : 1 ]", actual);
+        bs.push(2);
+        actual = bs.toString();
+        Assert.assertEquals("testing the string representation", "[ 2 : 1, 2 ]", actual);
     }
 
 }

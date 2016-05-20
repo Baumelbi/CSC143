@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259ba5e-dff8-423a-9a4b-74cbdaf99a9c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedQueueTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedQueueTest.class" />
+    <list default="true" id="1259ba5e-dff8-423a-9a4b-74cbdaf99a9c" name="Default" comment="Fully Implemented Bounded Stack Array and Queue">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/data_structures/MyBoundedStack.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/data_structures/MyBoundedStack.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedStackTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/BoundedStackTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/UnboundedQueueTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/UnboundedQueueTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/UnboundedStackTest.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/csc143/test/data_structures/UnboundedStackTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csc143/data_structures/MyBoundedStack.java" afterPath="$PROJECT_DIR$/src/csc143/data_structures/MyBoundedStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java" afterPath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java" afterPath="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java" />
     </list>
     <ignored path="StacksAndQueues.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,25 +32,42 @@
     <favorites_list name="StacksAndQueues" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BoundedStackTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BoundedQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.6955602">
-              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
-                <element signature="e#2086#2087#0" expanded="true" />
-                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoundedQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
+      <file leaf-file-name="BoundedArrayQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40232557">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1847#1848#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoundedArrayStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -54,8 +75,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="unstable-StacksAndQueues" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -69,7 +102,9 @@
         <option value="$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedStackTest.java" />
         <option value="$PROJECT_DIR$/src/csc143/data_structures/MyBoundedStack.java" />
         <option value="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java" />
+        <option value="$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayStack.java" />
         <option value="$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayQueue.java" />
       </list>
     </option>
   </component>
@@ -79,10 +114,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="28" />
-    <option name="width" value="1416" />
-    <option name="height" value="855" />
+    <option name="x" value="88" />
+    <option name="y" value="136" />
+    <option name="width" value="1205" />
+    <option name="height" value="751" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -91,7 +126,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -110,7 +145,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,7 +210,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,34 +218,14 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/school/CSC 143 Summer/workspace/LA SandQ" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoundedStackTest">
-    <configuration default="false" name="CompileStackQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="csc143.test.data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="csc143.test.data_structures.CompileStackQueue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="StacksAndQueues" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BoundedQueueTest.testDequeue">
     <configuration default="false" name="BoundedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -277,6 +292,58 @@
       <option name="MAIN_CLASS_NAME" value="csc143.test.data_structures.BoundedStackTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoundedQueueTest.testToStringPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="csc143.test.data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StacksAndQueues" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="csc143.test.data_structures" />
+      <option name="MAIN_CLASS_NAME" value="csc143.test.data_structures.BoundedQueueTest" />
+      <option name="METHOD_NAME" value="testToStringPush" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoundedQueueTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="csc143.test.data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StacksAndQueues" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="csc143.test.data_structures" />
+      <option name="MAIN_CLASS_NAME" value="csc143.test.data_structures.BoundedQueueTest" />
+      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -711,18 +778,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.CompileStackQueue" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UnboundedQueueTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoundedStackTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UnboundedQueueTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoundedStackTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest.testToStringPush" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest.testDequeue" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BoundedStackTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest.testDequeue" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UnboundedQueueTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CompileStackQueue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BoundedQueueTest.testToStringPush" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoundedStackTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UnboundedQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -739,6 +808,7 @@
       <workItem from="1462476169102" duration="146000" />
       <workItem from="1462477043062" duration="286000" />
       <workItem from="1462551176627" duration="3969000" />
+      <workItem from="1463756314003" duration="7521000" />
     </task>
     <task id="LOCAL-00001" summary="Finished first set of JUnit tests for bounded and unbounded Queues">
       <created>1462553256813</created>
@@ -762,48 +832,56 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoundedQueueTest - 2016.05.05 at 12h 37m 59s.xml">
-      <configuration name="BoundedQueueTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 18m 09s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoundedQueueTest - 2016.05.05 at 12h 39m 51s.xml">
-      <configuration name="BoundedQueueTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 32m 30s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoundedQueueTest - 2016.05.06 at 10h 21m 21s.xml">
-      <configuration name="BoundedQueueTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 33m 33s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoundedQueueTest - 2016.05.06 at 10h 25m 15s.xml">
-      <configuration name="BoundedQueueTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 33m 51s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoundedStackTest - 2016.05.06 at 10h 21m 46s.xml">
-      <configuration name="BoundedStackTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 34m 11s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoundedStackTest - 2016.05.06 at 10h 25m 33s.xml">
-      <configuration name="BoundedStackTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 36m 31s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnboundedQueueTest - 2016.05.06 at 09h 43m 33s.xml">
-      <configuration name="UnboundedQueueTest" configurationId="JUnit" />
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 46m 52s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 49m 12s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 50m 40s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoundedQueueTest_testDequeue - 2016.05.20 at 10h 56m 42s.xml">
+      <configuration name="BoundedQueueTest.testDequeue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4401000" />
+    <option name="totallyTimeSpent" value="11922000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="28" width="1416" height="855" extended-state="0" />
+    <frame x="88" y="136" width="1205" height="751" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3625954" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3621701" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22572614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -814,6 +892,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -849,7 +928,8 @@
       <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="Finished first set of JUnit tests for bounded and unbounded Queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first set of JUnit tests for bounded and unbounded Queues" />
+    <MESSAGE value="Fully Implemented Bounded Stack Array and Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully Implemented Bounded Stack Array and Queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -860,90 +940,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/CompileStackQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/Overfill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/Underempty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -960,10 +968,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/CompileStackQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/UnboundedStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -979,12 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,103 +1039,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/Overfill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/Underempty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/Underempty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/Overfill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyUnboundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13537906">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyUnboundedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13537906">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,14 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyBoundedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8489209">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1129,30 +1081,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.087579615">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18427518">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyBoundedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyUnboundedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5159705">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/MyBoundedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
+          <caret line="77" column="5" selection-start-line="11" selection-start-column="0" selection-end-line="77" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6955602">
-          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="104" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/test/data_structures/BoundedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
-            <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csc143/data_structures/BoundedArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40232557">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
           </folding>
         </state>
       </provider>
