@@ -71,17 +71,17 @@ public class UnboundedLinkedListStack implements UnboundedStack {
 
         if (size() == 0) {
             temp = String.format("[ %s : ", size());
-        } else {
-            temp = String.format("[ %s : ", size());
-            for (int i = 0; i < size(); i++) {
-                if (i+1 >= size()) {
-                    temp += ubLinkedList[i] + " ";
-                } else {
-                    temp += ubLinkedList[i] + ", ";
-                }
-            }
-        }
-        temp += "]";
+//        } else {
+//            temp = String.format("[ %s : ", size());
+//            for (int i = 0; i < size(); i++) {
+//                if (i+1 >= size()) {
+//                    temp += ubLinkedList[i] + " ";
+//                } else {
+//                    temp += ubLinkedList[i] + ", ";
+//                }
+//            }
+//        }
+//        temp += "]";
         return temp;
     }
 
