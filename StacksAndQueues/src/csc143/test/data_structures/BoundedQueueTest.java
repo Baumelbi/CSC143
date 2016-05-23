@@ -35,13 +35,13 @@ public class BoundedQueueTest {
     @Test
     public void testDequeue() throws Overfill, Underempty {
         bq.enqueue(1);
-        System.out.println(bq);
+        //System.out.println(bq);
         bq.enqueue(2);
-        System.out.println(bq);
+        //System.out.println(bq);
         Assert.assertEquals("testing the size after adding", 2, bq.size());
         Assert.assertEquals("Testing the string", "[ 2 : 1, 2 ]", bq.toString());
         bq.dequeue();
-        System.out.println(bq);
+        //System.out.println(bq);
         Assert.assertEquals("testing the size after removing", 1, bq.size());
         Assert.assertEquals("Testing the string", "[ 1 : 2 ]", bq.toString());
 
@@ -100,4 +100,5 @@ public class BoundedQueueTest {
         actual = bq.toString();
         Assert.assertEquals("testing the string representation", "[ 2 : 1, 2 ]", actual);
     }
+
 }
