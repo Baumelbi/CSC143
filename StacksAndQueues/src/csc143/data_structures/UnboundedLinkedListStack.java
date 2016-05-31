@@ -71,6 +71,10 @@ public class UnboundedLinkedListStack implements UnboundedStack {
 
         if (size() == 0) {
             temp = String.format("[ %s : ", size());
+        }
+        else{
+            temp = "";
+        }
 //        } else {
 //            temp = String.format("[ %s : ", size());
 //            for (int i = 0; i < size(); i++) {
@@ -116,4 +120,5 @@ public class UnboundedLinkedListStack implements UnboundedStack {
             next = nextValue;
         }
     }
+
 }
