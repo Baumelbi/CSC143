@@ -76,35 +76,6 @@ public class SudokuBoard extends javax.swing.JComponent implements SelectedCell 
         g.drawRect(0, 0, (size * 51 + 2), (size * 51 + 2));
     }
 
-    class Square extends JPanel {
-        //instance fields
-        //variables
-        int width = 50;
-        int height = 50;
-        Color ogColor;
-
-        /**
-         * Constructor square is where each square is made.  Holds the constructor, x and y, for location of each square, and parameter c for color that
-         * will be set when used.
-         *
-         * @param x - x location
-         * @param y - y location
-         * @param c - color set when used
-         */
-        private Square(int x, int y, Color c) {
-            //set color when used
-            this.ogColor = c;
-            //50x50 dimension
-            setSize(width, height);
-            //location
-            setLocation(x, y);
-            //setting a black border for visibility
-            setBorder(BorderFactory.createLineBorder(Color.BLACK));
-            //set color once used
-            setBackground(c);
-        }
-    }
-
     SudokuBase getBase() {
         return b;
     }
@@ -138,5 +109,34 @@ public class SudokuBoard extends javax.swing.JComponent implements SelectedCell 
     @Override
     public int getSelectedColumn() {
         return 0;
+    }
+
+    class Square extends JPanel {
+        //instance fields
+        //variables
+        int width = 50;
+        int height = 50;
+        Color ogColor;
+
+        /**
+         * Constructor square is where each square is made.  Holds the constructor, x and y, for location of each square, and parameter c for color that
+         * will be set when used.
+         *
+         * @param x - x location
+         * @param y - y location
+         * @param c - color set when used
+         */
+        private Square(int x, int y, Color c) {
+            //set color when used
+            this.ogColor = c;
+            //50x50 dimension
+            setSize(width, height);
+            //location
+            setLocation(x, y);
+            //setting a black border for visibility
+            setBorder(BorderFactory.createLineBorder(Color.BLACK));
+            //set color once used
+            setBackground(c);
+        }
     }
 }

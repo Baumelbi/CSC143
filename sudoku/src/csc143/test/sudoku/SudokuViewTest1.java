@@ -1,18 +1,24 @@
 package csc143.test.sudoku;
 
-import java.awt.event.*;
+import csc143.sudoku.SudokuBase;
+import csc143.sudoku.SudokuModel;
+import csc143.sudoku.SudokuView;
+
 import javax.swing.*;
-import csc143.sudoku.*;
 
 public class SudokuViewTest1 {
-    
+
     public SudokuViewTest1() {
         twoByTwo();
         twoByThree();
         threeByThree();
         threeByFour();
     }
-    
+
+    public static void main(String[] args) {
+        new SudokuViewTest1();
+    }
+
     public void twoByTwo() {
         JFrame win = new JFrame("2x2 Board");
         win.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -30,7 +36,7 @@ public class SudokuViewTest1 {
         win.setVisible(true);
         win.pack();
     }
-    
+
     public void twoByThree() {
         JFrame win = new JFrame("2x3 Board");
         win.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -56,7 +62,7 @@ public class SudokuViewTest1 {
         win.setVisible(true);
         win.pack();
     }
-    
+
     public void threeByThree() {
         JFrame win = new JFrame("3x3 Board");
         win.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -115,7 +121,7 @@ public class SudokuViewTest1 {
         win.setVisible(true);
         win.pack();
     }
-    
+
     public void threeByFour() {
         JFrame win = new JFrame("3x4 Board");
         win.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -190,9 +196,5 @@ public class SudokuViewTest1 {
         win.setVisible(true);
         win.pack();
     }
-    
-    public static void main(String[] args) {
-        new SudokuViewTest1();
-    }
-    
+
 }

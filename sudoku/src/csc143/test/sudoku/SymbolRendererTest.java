@@ -1,20 +1,21 @@
 package csc143.test.sudoku;
 
-import java.awt.*;
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class SymbolRendererTest implements ActionListener {
-    
+
+    private static final Color[] colors =
+            {Color.black, Color.red, Color.green, Color.blue};
+    private static final Color bg = new Color(255, 255, 204);
+    private static final Color fg = new Color(255, 204, 255);
     private JFrame win;
     private csc143.sudoku.SymbolRenderer sym;
     private JComboBox<String> color;
     private JComboBox<Integer> value;
-    private static final Color[] colors = 
-    {Color.black, Color.red, Color.green, Color.blue};
-    private static final Color bg = new Color(255, 255, 204);
-    private static final Color fg = new Color(255, 204, 255);
-    
+
     public void testSymbols(csc143.sudoku.SymbolRenderer s) {
         sym = s;
         win = new JFrame("Symbol checker");
@@ -31,7 +32,7 @@ public class SymbolRendererTest implements ActionListener {
         tools.add(new JLabel("Select color"));
         tools.add(color);
         value = new JComboBox<Integer>();
-        for(int i = 0; i < 13; i++) {
+        for (int i = 0; i < 13; i++) {
             value.addItem(i);
         }
         value.setSelectedIndex(1);
@@ -43,7 +44,7 @@ public class SymbolRendererTest implements ActionListener {
         win.pack();
         win.setVisible(true);
     }
-    
+
     public void actionPerformed(ActionEvent e) {
         win.repaint();
     }
@@ -52,6 +53,7 @@ public class SymbolRendererTest implements ActionListener {
         DrawSymbol() {
             setPreferredSize(new Dimension(310, 90));
         }
+
         public void paintComponent(Graphics g) {
             int v = value.getSelectedIndex();
             g.setColor(Color.white);

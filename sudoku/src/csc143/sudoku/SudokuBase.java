@@ -9,10 +9,9 @@ public abstract class SudokuBase extends java.util.Observable {
     private final int columns;
     private final int size;
 
-    public enum State {COMPLETE, INCOMPLETE, ERROR}
-
     /**
      * This is the constructor for the Sudoku base
+     *
      * @param layoutRows
      * @param layoutColumns
      */
@@ -24,6 +23,7 @@ public abstract class SudokuBase extends java.util.Observable {
 
     /**
      * This method gives you the number of rows
+     *
      * @return rows the amount of rows
      */
     public int getRows() {
@@ -32,6 +32,7 @@ public abstract class SudokuBase extends java.util.Observable {
 
     /**
      * This method gives you the number of columns
+     *
      * @return columns the amount of columns
      */
     public int getColumns() {
@@ -40,6 +41,7 @@ public abstract class SudokuBase extends java.util.Observable {
 
     /**
      * This method gives you the board
+     *
      * @return size
      */
     public int getSize() {
@@ -49,6 +51,7 @@ public abstract class SudokuBase extends java.util.Observable {
     /**
      * This abstract class provides you with the value at a given location
      * on the board
+     *
      * @param row
      * @param col
      * @return value the value at the location
@@ -57,6 +60,7 @@ public abstract class SudokuBase extends java.util.Observable {
 
     /**
      * This abstract method allows you to set the value at a given location
+     *
      * @param row
      * @param col
      * @param value
@@ -66,6 +70,7 @@ public abstract class SudokuBase extends java.util.Observable {
     /**
      * This abstrast method tells you if the selected spot is a "given"
      * location. meaning that it is a fixed value.
+     *
      * @param row
      * @param col
      * @return
@@ -73,13 +78,14 @@ public abstract class SudokuBase extends java.util.Observable {
     public abstract boolean isGiven(int row, int col);
 
     /**
-     *This method lets you set a position as a "given" location
+     * This method lets you set a position as a "given" location
      */
     public abstract void fixGivens();
 
     /**
      * This method takes in the row number and lets you know if the
      * row is incomplete, complete, or error
+     *
      * @param n the row number
      * @return
      */
@@ -88,6 +94,7 @@ public abstract class SudokuBase extends java.util.Observable {
     /**
      * This method takes in the column and lets you know if the
      * row is incomplete, complete, or error
+     *
      * @param n the column number
      * @return
      */
@@ -96,9 +103,12 @@ public abstract class SudokuBase extends java.util.Observable {
     /**
      * This method takes in the region number and lets you know
      * if the region is complete, incomplete or error
+     *
      * @param n the region number
      * @return
      */
     public abstract State getRegionState(int n);
+
+    public enum State {COMPLETE, INCOMPLETE, ERROR}
 
 }

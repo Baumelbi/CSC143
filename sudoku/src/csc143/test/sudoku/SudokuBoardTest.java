@@ -61,6 +61,16 @@ public class SudokuBoardTest implements ActionListener {
         win.pack();
     }
 
+    public static void main(String[] args) {
+        new SudokuBoardTest(2, 2);
+        new SudokuBoardTest(2, 3);
+        new SudokuBoardTest(2, 4);
+        new SudokuBoardTest(2, 5);
+        new SudokuBoardTest(3, 2);
+        new SudokuBoardTest(3, 3);
+        new SudokuBoardTest(3, 4);
+    }
+
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == query) {
             output.setText("Selected cell: " +
@@ -81,16 +91,6 @@ public class SudokuBoardTest implements ActionListener {
             }
         }
         win.pack();
-    }
-
-    public static void main(String[] args) {
-        new SudokuBoardTest(2, 2);
-        new SudokuBoardTest(2, 3);
-        new SudokuBoardTest(2, 4);
-        new SudokuBoardTest(2, 5);
-        new SudokuBoardTest(3, 2);
-        new SudokuBoardTest(3, 3);
-        new SudokuBoardTest(3, 4);
     }
 
 }
